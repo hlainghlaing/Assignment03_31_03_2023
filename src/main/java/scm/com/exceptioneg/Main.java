@@ -21,8 +21,8 @@ public class Main {
 
         System.out.println("Continue to other method!");
         try {
-            int divResult = 10/0;
-        }catch(ArithmeticException e) {
+            int divResult = 10 / 0;
+        } catch (ArithmeticException e) {
             System.out.println("Error");
         }
     }
